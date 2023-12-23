@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is the Sign Up Page to For Individuals Website" />
+  <title>For Individuals</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="mediaquery.css" />
+</head>
+
+<body>
+  <main>
+    <!--left hand side of site-->
+    <section class="split">
+      <img src="assets/Logo.png" alt="logo" />
+      <h1>For Individuals</h1>
+      <p class="web_text">
+        Start benefitting from the wellness experience. For <br />
+        companies looking for increasing productivity, and improving
+        <br />organization wellness.
+      </p>
+      <p class="mobile_text">
+        Inspiring wholesome harmony for the mind, body and spirit, for
+        everyone, everywhere.
+      </p>
+    </section>
+
+
+    <div class="split-form">
+      <!--beginning of the sign up form-->
+      <div class="form-container">
+        <form action=" submit">
+          <!--first name-->
+          <div class="first-name-entry">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" />
+          </div>
+
+          <!--last name-->
+          <div class="last-name-entry">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder=" Enter Last Name" />
+          </div>
+
+          <!--gender-->
+          <div class="Gender">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="">Select Here</option>
+              <option value="">Male</option>
+              <option value="">Female</option>
+            </select>
+          </div>
+
+          <!--date of birth-->
+          <div class="DOB">
+            <label for="dob">Date of Birth</label>
+            <input type="date" aria-placeholder="Select here" name="dob" id="dob" />
+          </div>
+
+          <!--Weight-->
+          <div class="Weight">
+            <label for="weight"> Weight (KG)</label>
+            <input type="text" placeholder="Enter Weight Here" id="weight" />
+          </div>
+
+          <!--Height-->
+          <div class="Height">
+            <label for="height">Height (CM)</label>
+            <input type="text" placeholder="Enter Height Here" id="height" />
+          </div>
+
+          <!--Activity level-->
+          <div class="Activity">
+            <label for="activity">Activity Level</label>
+            <div>
+              <select name="activitylevel" id="activity">
+                <option value="" display="none">Select here</option>
+                <option value="">Strong</option>
+                <option value="">Weak</option>
+              </select>
+            </div>
+          </div>
+
+          <!--password-->
+          <div class="Password">
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter password" />
+            <img src="assets/hiddenlogo.svg" alt="hiddenlogo" />
+          </div>
+
+          <!--button -->
+          <button>Register</button>
+        </form>
+        <footer class="web-footer">
+          <p>
+            By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+          </p>
+        </footer>
+      </div>
+      
+    </div>
+    <footer id="mobile-footer"><p>By clicking Register, you agree to our <a href=""> Terms of Use </a>and our <a
+        href="">Privacy Policy</a></p></footer>
+
+    
+  </main>
+</body>
+
+</html>

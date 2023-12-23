@@ -1,0 +1,225 @@
+
+/* For screens that have a max width of 13666px*/
+@media screen and (max-width: 1366px) {
+    button{
+        width: 450px;
+        margin-left: 20px;
+    }
+
+   
+
+    .split-form{
+        padding: 30px;
+    }
+
+   #mobile-footer{
+        display: none;
+    }
+    
+    .web-footer{
+      text-align: center;
+    }
+}
+
+
+/* For screens that have a max width of 1280px*/
+@media screen and (max-width: 1280px) {
+    main {
+          padding: 20px;
+        }
+    
+     button {
+        width: 320px;
+        margin-left: 20px;
+     }
+    
+        form {
+            /* display: grid; */
+            /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+            gap: 20px;
+        }
+    
+        label {
+            display: block;
+            /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+            /* grid-column: span 2; Span two columns to keep label in a single row */
+            font-weight: bold;
+            line-height: normal;
+            letter-spacing: 0.1px;
+            padding-bottom: 6px;
+        }
+    
+        .split-form {
+            padding: 30px;
+        }
+
+        .Password img{
+            top: 49px;
+            left: 130px;
+        }
+    
+    
+        #mobile-footer {
+            display: none;
+        }
+    }
+    .web-footer{
+        font-size: 11px;
+        text-align: center;
+      }
+
+      /* For screens that have a max width of 1024px*/
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        /* margin-left: 2px; */
+    }
+    .web_text{
+        display: none;
+    }
+    .mobile_text{
+        display: block;
+    }
+    input, select, #activity, button, #password{
+        width: 95%;
+    }
+    form{
+    grid-template-columns: none; 
+        width: 100%;
+    }
+    .split-form{
+        height: 100%;
+        /* width: 100%; */
+    }
+    .split{
+        top: 0px;
+        padding: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .split p{
+        width:100%;
+    }
+
+    .Password img{
+        top: 53px;
+        left: 570px;
+    }
+
+    #moblie-footer{
+        display: none;
+    }
+    .web-footer{
+      text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+
+
+    
+}
+/* For screens that have a max width of 480*/
+@media screen and (max-width: 480px){
+  /* margin-left: 5px; */
+  main {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+
+    /* margin-left: 2px; */
+}
+.web_text{
+    display: none;
+}
+.mobile_text{
+    display: block;
+}
+input, select, #activity, button, #password{
+    width: 100%;
+    height: 42px;
+}
+form{
+grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    width: 100%;
+}
+form, label{
+    padding-bottom: 5px;
+    gap: 12px;
+    font-size: 14px;
+}
+
+div .form-contanier{
+    height: 200%;
+    width: 85%;
+    margin: 0;
+    padding: 10px;
+}
+
+.split{
+    padding: 20px 30px;
+}
+.split > img {
+    height: 40px;
+    width: 38.67px;
+    margin-top: 20px;
+}
+.split > h1{
+    margin: 12px 0 8px 0;
+    font-size: 30px;
+    
+}
+.split > p{
+    width:96%;
+    font-size: 16px;
+    line-height: 20px;
+    word-spacing:1px;
+}
+
+.split-form{
+    padding: 10px 30px 40px 30px;
+    /* position: relative; */
+}
+button{
+    /* width: 450px; */
+    margin:0;
+    height: 42px;
+}
+
+.Password img{
+    top: 42px;
+    left: 260px;
+}
+
+.web-footer{
+    display: none;
+}
+
+#mobile-footer{
+    display: block;
+}
+
+footer > p{
+   align-items: center;
+   margin: 20px 40px 40px 40px;
+   width: 320px;
+   word-wrap: break-word;
+   display: -webkit-box;
+   text-align: center;
+   /* display: block; */
+   
+   /* margin-top: 4px; */
+}
+}
+
+
+

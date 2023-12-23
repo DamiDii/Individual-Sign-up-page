@@ -1,0 +1,2 @@
+Assignment 2 - Sign Up Individuals
+This is a project that deals with the responsiveness of a webpage on devices with different screen sizes as well as how to make a particular content to display on a particular screen size range.
